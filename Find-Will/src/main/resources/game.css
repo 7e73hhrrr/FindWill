@@ -1,0 +1,19 @@
+.root { -fx-font-family:"SansSerif"; }
+.veil { -fx-background-color: linear-gradient(to bottom,rgba(9,16,21,.24),rgba(6,15,20,.62) 45%,rgba(6,15,20,.82)); }
+.label { -fx-text-fill:#f6ecda; }
+.title { -fx-font-family:"Serif"; -fx-font-weight:bold; -fx-font-size:64px; -fx-effect:dropshadow(gaussian,rgba(0,0,0,.9),9,.4,0,2); }
+.compact .title { -fx-font-size:39px; }
+.eyebrow,.health,.marks { -fx-font-family:"Monospace"; -fx-font-weight:bold; -fx-text-fill:#ffc49c; -fx-font-size:13px; }
+.health { -fx-text-fill:#b5d9ca; }
+.marks { -fx-font-size:24px; }
+.line { -fx-font-size:19px; }
+.compact .line { -fx-font-size:16px; }
+.panel { -fx-padding:20 22; -fx-background-color:rgba(12,26,30,.94); -fx-background-radius:8; -fx-border-color:#627770; -fx-border-radius:8; }
+.button { -fx-background-color:#e3bd8d; -fx-text-fill:#172420; -fx-font-weight:bold; -fx-font-size:15px; -fx-padding:10 17; -fx-background-radius:4; -fx-cursor:hand; }
+.button:hover,.button:focused { -fx-background-color:#ffe2b6; }
+.portrait { -fx-background-color:#14292c; -fx-text-fill:#ffead0; -fx-border-color:#667974; -fx-border-radius:5; -fx-padding:7; -fx-graphic-text-gap:6; }
+.portrait:hover,.portrait:focused { -fx-background-color:#354a46; -fx-border-color:#ffd7aa; }
+.warning { -fx-font-size:12px; -fx-text-fill:#ffddb1; }
+.compact .panel { -fx-padding:12; }
+.progress-bar > .track { -fx-background-color:#384b47; -fx-background-radius:4; }
+.progress-bar > .bar { -fx-background-color:#ed9a78; -fx-background-radius:4; -fx-padding:3; }

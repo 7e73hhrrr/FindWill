@@ -1,0 +1,12 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"><modelVersion>4.0.0</modelVersion>
+<groupId>com.hawkins</groupId><artifactId>find-will</artifactId><version>1.0.0</version>
+<properties><project.build.sourceEncoding>UTF-8</project.build.sourceEncoding><maven.compiler.release>17</maven.compiler.release><fx>17.0.12</fx></properties>
+<dependencies>
+<dependency><groupId>org.openjfx</groupId><artifactId>javafx-controls</artifactId><version>${fx}</version></dependency>
+<dependency><groupId>org.openjfx</groupId><artifactId>javafx-media</artifactId><version>${fx}</version></dependency>
+<dependency><groupId>org.junit.jupiter</groupId><artifactId>junit-jupiter</artifactId><version>5.11.4</version><scope>test</scope></dependency>
+</dependencies><build><plugins>
+<plugin><groupId>org.apache.maven.plugins</groupId><artifactId>maven-compiler-plugin</artifactId><version>3.13.0</version></plugin>
+<plugin><groupId>org.apache.maven.plugins</groupId><artifactId>maven-surefire-plugin</artifactId><version>3.5.2</version></plugin>
+<plugin><groupId>org.openjfx</groupId><artifactId>javafx-maven-plugin</artifactId><version>0.0.8</version><configuration><mainClass>com.hawkins.MainApp</mainClass></configuration></plugin>
+</plugins></build></project>
